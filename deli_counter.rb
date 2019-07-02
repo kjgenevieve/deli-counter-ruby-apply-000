@@ -26,10 +26,6 @@ def take_a_number(katz_deli)
   katz_deli.push(ticket)
   puts "Welcome. You are ticket number #{ticket}."
 end
-# "Welcome, you have ticket #1"
-# "Welcome, you have ticket #2"
-# now_serving must say "Currently serving Ticket # (x)"
-# Welcome, you have ticket #3"
 
 def now_serving(katz_deli)
   if katz_deli.length == 0
